@@ -38,6 +38,9 @@ words = ['cat', 'window', 'defenestrate']
 for w in words:
     print w, len(w)
 
+for i, w in enumerate(words) :
+    print i, w, len(w)
+    
 print words
 
 print " "
